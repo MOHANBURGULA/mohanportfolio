@@ -15,9 +15,10 @@ export default function App() {
   const skills = {
     Frontend: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Bootstrap'],
     Backend: ['Node.js', 'Express'],
-    Database: ['MySQL'],
+    Database: ['MySQL','MongoDB'],
     Tools: ['GitHub', 'Git', 'VS Code', 'Netlify'],
     Languages: ['C', 'C++', 'Java', 'Python', 'JavaScript'],
+    DevOps :['Docker','Linux Basics'],
   };
 
   const projects = [
@@ -29,17 +30,25 @@ export default function App() {
         'Web-based document generator for students and professionals with multiple templates.',
     },
     {
+      title: 'Telegram Chatbot with Gemini AI',
+      github: 'https://www.linkedin.com/feed/update/urn:li:activity:7358363848673849345/?originTrackingId=QOWqPaNyQz5H0u%2BO7DTNMw%3D%3D',
+      
+      tech: 'Python,  Gemini API, Telegram Bot API, REST APIs',
+      description: 'Built an AI-powered Telegram chatbot using Python and Gemini API that understands user messages and provides real-time, accurate responses through a conversational interface.',
+    },
+    
+    {
+      title: 'Lost2Found',
+      github: 'https://github.com/MOHANBURGULA/Lost2Found_FULL-STACK',
+      tech: 'React, Node.js,Express.js, MongoDB ',
+      description:'Lost2Found is a web application designed to help college students report and find lost items on campus, enhancing the chances of recovering their belongings.',
+    },
+     
+    {
       title: 'QR Code Generator',
       github: 'https://github.com/MOHANBURGULA/qr-code-generator.git',
       tech: 'HTML, CSS, JavaScript',
       description: 'Generates QR codes quickly for text or URLs with a clean UI.',
-    },
-    {
-      title: 'Lost2Found',
-      github: 'https://github.com/MOHANBURGULA/lost-to-found.git',
-      tech: 'React, Node.js, ',
-      description:
-        'Helps users report and recover lost items through a centralized platform.',
     },
   ];
 
@@ -87,7 +96,7 @@ export default function App() {
             >
               <h2>Hi, I'm Mohan</h2>
               {/* <h2>Computer Science Student</h2> */}
-              <h3>Aspiring Full-Stack Developer</h3>
+              <h3>Aspiring MERN Stack Developer</h3>
               <p>Specializing in modern web technologies and AI-powered applications</p>
               
               {/* Resume Buttons */}
@@ -237,7 +246,7 @@ export default function App() {
             </p>
             <p>
               LinkedIn:{' '}
-              <a href="https://www.linkedin.com/in/mohanburgula" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/mohan-burgula-3b7a0b292/" target="_blank" rel="noreferrer">
                 linkedin.com/in/mohanburgula
               </a>
             </p>
